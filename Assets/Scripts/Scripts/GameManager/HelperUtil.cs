@@ -15,8 +15,8 @@ public class HelperUtil : MonoBehaviour
     #region Variables 
     public Material defaultObject;
 
-    [SerializeField] private Flyersoft.GameLibrary _gameLibraryRef;
-    public static Flyersoft.GameLibrary GameLibrary => instance?._gameLibraryRef;
+    [SerializeField] private Flyerssoft.GameLibrary _gameLibraryRef;
+    public static Flyerssoft.GameLibrary GameLibrary => instance?._gameLibraryRef;
 
     public static HelperUtil instance { get; private set; }
     [SerializeField] GameObject messagePopupPrefab;

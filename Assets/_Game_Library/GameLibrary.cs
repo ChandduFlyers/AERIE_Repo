@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace Flyersoft
+namespace Flyerssoft
 {
     [CreateAssetMenu(fileName = "GameLibrary", menuName = "FMV/GameLibrary", order = 1)]
     public class GameLibrary : ScriptableObject
